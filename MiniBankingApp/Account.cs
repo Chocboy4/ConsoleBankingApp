@@ -7,6 +7,7 @@ namespace MiniBankingApp
     public class Account
     {
         public string Name { get; set; } = "";
+        public string Pin { get; set; } = "";
         public decimal Balance { get; set; }
         public List<string> Transactions { get; set; } = new();
     }
